@@ -74,7 +74,7 @@ The section below outlines my *recommended* system specifications for the list. 
 
 | Component | My Specs (1440p) | Recommended Specs (1080p) |
 | :---         |:---:      |          ---: |
-| CPU  | I5 13600 K    | R7 13600k or Equivalent|
+| CPU  | I5 13600K    | I5 13600k or Equivalent|
 | GPU    | RTX 4070  | RTX 2060 or Equivalent|
 | Memory   | 32GB RAM | 16GB RAM or Greater |
 | Storage  | NVME SSD | SATA SSD |
