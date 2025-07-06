@@ -1,372 +1,151 @@
-# CSVO
-![alt text](https://github.com/InTheBottle/CSVO/blob/main/Resources/csvo.png)
-A Modlist for Skyrim
+# CSVO: A Skyrim Modlist
 
-<p align="center">
-  [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/154268">Nexus Page</a> | 
-  Installation | 
-  <a href="https://github.com/InTheBottle/CSVO/blob/main/Changelog.md">Changelog</a> |
-  <a href="https://loadorderlibrary.com/lists/csvo-community-shaders-visual-overhaul">Load Order</a> |
-  <a href="https://discord.gg/avzs76EgnA">Modlist Discord</a> ]
-</p>
+![CSVO Logo](https://github.com/InTheBottle/CSVO/blob/main/Resources/csvo.png)
+
+A visuals-focused modlist for Skyrim Special Edition.
+
+**Links**: [Nexus Page](https://www.nexusmods.com/skyrimspecialedition/mods/154268) | [Changelog](https://github.com/InTheBottle/CSVO/blob/main/Changelog.md) | [Load Order](https://loadorderlibrary.com/lists/csvo-community-shaders-visual-overhaul) | [Discord](https://discord.gg/avzs76EgnA)
 
 ---
 
-**Modlist Support: [CSVO](https://discord.gg/avzs76EgnA)**
+**Support**: Join the [CSVO Discord](https://discord.gg/avzs76EgnA)
 
->[!IMPORTANT]
->CSVO requires the four free AE mods (Fishing, Rare Curios, Survival Mode, and Saints and Seducers) included in the Skyrim Anniversary Edition update from November 2021. This modlist does **NOT** utilize the AE DLC, only these four free AE mods are used.
+**Requirements**:
+- Skyrim SE version 1.6.1170 (latest Steam update).
+- Four free Anniversary Edition mods: Fishing, Rare Curios, Survival Mode, Saints and Seducers (included in the November 2021 update).
+- Does **not** require full Anniversary Edition DLC.
 
->[!WARNING]
->You must update Skyrim SE to the latest version (1.6.1170) on Steam to install this list.
+---
 
-<header>
-    <h1>Contents</h1>
-</header>
-
+## Contents
 - [Introduction](#introduction)
-  - [System Requirements](#system-requirements)
+- [System Requirements](#system-requirements)
 - [Installation](#installation)
-  - [Pre-Installation](#pre-installation)
-    - [Installing Microsoft Visual C++ and .NET](#installing-microsoft-visual-c-and-net)
-    - [Pagefile and Crash Prevention](#pagefile-and-crash-prevention)
-    - [Steam Setup](#steam-setup)
-    - [Changing the Game Language](#changing-the-game-language)
-    - [Installing Rare Curios Files](#installing-rare-curios-files)
-  - [Wabbajack Installation](#wabbajack-installation)
-    - [Installing Wabbajack](#installing-wabbajack)
-    - [Downloading and Installing CSVO](#downloading-and-installing-CSVO)
-  - [Problems with installation](#problems-with-installation)
-    - [Missing Manual Downloads](#missing-manual-downloads)
-- [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
-  - [Stock Game](#stock-game)
-  - [Antivirus Exceptions](#antivirus-exceptions)
-  - [Post-Installation Issues and Troubleshooting](#post-installation-issues-and-troubleshooting)
-  - [Keyboard Keybinds](#keyboard-keybinds)
+- [Post-Installation](#post-installation)
 - [Playing the Game](#playing-the-game)
-- [Updating the Modlist](#updating-the-modlist)
-- [Removing the Modlist](#removing-the-modlist)
-- [Issues](#issues)
-- [Credits and Thanks](#credits-and-thanks)
+- [Updating](#updating)
+- [Uninstalling](#uninstalling)
+- [Troubleshooting](#troubleshooting)
+- [Credits](#credits)
+
+---
 
 ## Introduction
+**CSVO** is a visuals-only modlist for Skyrim SE (1.6.1170), built around [Community Shaders](https://www.nexusmods.com/skyrimspecialedition/mods/86492). Based on [Althros Dev Tools](https://github.com/Styyx1/ADT).
 
-**CSVO** is a visuals-only modlist for Skyrim Special Edition (1.6.1170) that is built around [Community Shaders](https://www.nexusmods.com/skyrimspecialedition/mods/86492). Built upon ADT ([Althros Dev Tools](https://github.com/Styyx1/ADT) modlist)
+View the full mod list [here](https://loadorderlibrary.com/lists/csvo-community-shaders-visual-overhaul).
 
-A full list of the mods used in this modlist can be viewed [here](https://loadorderlibrary.com/lists/csvo-community-shaders-visual-overhaul).
+Licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+---
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+## System Requirements
+- **OS**: Windows 10 or 11 (no LTSC or modified versions; Linux not supported).
+- **Storage**: SSD required.
+- **Download Size**: ~34 GB.
+- **Install Size**: ~71 GB.
+- **Total Space Needed**: ~105 GB.
 
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+| Component | Recommended (1080p) | My Specs (1440p) |
+|-----------|---------------------|------------------|
+| CPU       | i5 13600k or similar | i5 13600K       |
+| GPU       | RTX 2060 or similar | RTX 4070        |
+| RAM       | 16GB or more        | 32GB            |
+| Storage   | SATA SSD            | NVMe SSD        |
 
-### System Requirements
-
-The section below outlines my *recommended* system specifications for the list. Please keep in mind that every PC is different, and these recommendations are mostly a guesstimate based on what I've monitored and firsthand reports. Individual performance may vary depending on specific hardware and software configurations, as well as other system optimizations. **Troubleshooting & support for hardware related issues will not be provided.**
-
->[!WARNING]
->
->- An SSD is **required** to the play the modlist.
->- Only Windows 10 or 11 operating systems are supported. Windows LTSC, special variants, lightened editions or any other modified variant **WILL NOT BE SUPPORTED.** Linux installations also **WILL NOT BE SUPPORTED**.
-
-| Component | My Specs (1440p) | Recommended Specs (1080p) |
-| :---         |:---:      |          ---: |
-| CPU  | I5 13600K    | I5 13600k or Equivalent|
-| GPU    | RTX 4070  | RTX 2060 or Equivalent|
-| Memory   | 32GB RAM | 16GB RAM or Greater |
-| Storage  | NVME SSD | SATA SSD |
-
-</Details>
-
-- Downloads Size: ~34 GB
-- Install Size: ~71 GB  
-  **TOTAL:** ~105 GB  
+---
 
 ## Installation
 
-Installing CSVO is easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating-the-modlist).
-
 ### Pre-Installation
+1. **Install Dependencies**:
+   - [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe).
+   - [.NET Runtime 8.x.x Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer).
+   - [.NET Runtime 6.0.0 Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.30-windows-x64-installer).
+   - If Visual C++ is installed, use the `Repair` option.
 
-These steps are only required for installing the modlist for the first time. Additionally, many of these steps may be covered in other modlist installs, for new users I suggest reading through here regardless.
+2. **Steam Setup**:
+   - Disable [auto-updates for Skyrim SE](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
+   - Run Skyrim SE once for graphics check.
+   - Install [Creation Kit](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/) on the same drive as Skyrim SE.
+   - Run Creation Kit once, select `Yes` to unpack scripts.
 
-#### Installing Microsoft Visual C++ and .NET
+3. **Set Game Language**:
+   - In Steam, right-click Skyrim SE > Properties > Language > Set to English.
 
- 1. Install [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe).
- 2. Install [.NET Runtime 8.X.X Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer).
- 3. Install [.NET Runtime 6.0.0 Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.30-windows-x64-installer).
-
->[!WARNING]
->If you already have Visual C++ installed, please make sure you install it again and use the `Repair` option to get the latest version of the redistributables. **Do NOT skip this step or MO2 and the game may fail to launch.**
-
-#### Pagefile and Crash Prevention
-
-Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues.
-
-<Details>
-<summary>Click me for instructions on how to setup a Pagefile!</summary>
-
- 1. Press `Win Key + R` keys, type `sysdm.cpl ,3` and hit `ENTER`
- 1. Select the `Settings...` box under the **Performance** tab
- 2. Select the **Advanced** tab at the top
- 3. Select the `Change...` box under **Virtual Memory**
- 4. Uncheck `Automatically Manage` if it is checked
- 5. Select your preferred disk drive, ideally your fastest solid state drive
- 6. Select `Custom Size`
- 7. In the box next to **Initial Size (MB)**, type `20480`
- 8. In the box next to **Maximum Size (MB)**, type `20480`
- 9. Select `Set`, then click `OK`. Exit out of the Virtual Memory window
- 10. Select `Apply`, then click `OK` on the System Properties window
- 11. **Restart your PC**.
-
-</Details>
-
-<Details>
-<summary>Why do we need a Pagefile?</summary>
-
-Skyrim is a very old game (originally released in 2011) that is built on the [Creation Engine](https://en.wikipedia.org/wiki/Creation_Engine), a engine based off of the [Gamebryo](https://en.wikipedia.org/wiki/Gamebryo) engine that was originally used for Morrowind (released in 2002).  
-
-Through lots of experience and trial-and-error, we have discovered that increasing the window's pagefile can fix certain types of Skyrim crashes, the two most common examples being `Unhandled native exception occurred at 0x7FF6ADC8DDDA` and `Unhandled native exception occurred at 0x0`.  
-
-But why is this? Skyrim appears to use system memory in very unexpected ways, for example it will frequently dip into the pagefile memory despite there being available RAM. Skyrim heavily favors high speed, low latency RAM (the best you can get as of writing this is 6000MHz and CL30 for DDR5).  
-
-</Details>
-
-#### Steam Setup
-
->[!WARNING]
->If you have your Steam Library in Program Files and only have one drive, please read [this article](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) by LostDragonist. Locations such as Desktop, Documents, Downloads, OneDrive, etc. *will* cause issues with installing the list.
-
- 1. Change Skyrim SE's Steam settings so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
- 2. Please ensure you follow the steps outlined in the [Installing Rare Curios Files](#installing-rare-curios-files) section. If you already own the AE DLC, and see **lowercase** curios files in your Skyrim's Steam install, you can safely skip this step. AE DLC owners do not have to worry about disabling/uninstalling the AE DLC either as Wabbajack will simply skip over those files when installing the modlist.
- 3. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
- 4. Install the [SE Creation Kit on Steam](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/). This needs to be installed on the same drive your Skyrim SE is installed to.
- 5. Run the Creation Kit once and select `Yes` when it asks about unpacking scripts.
-
-#### Changing the Game Language
-
->[!WARNING]
->**The English Steam version of Skyrim SE is the only supported version.**
-
-I understand that this may be frustrating for non-English speaking users or users with the GOG/Bethesda.net versions, but due to the core file differences between the different versions, I am only able to support one game version.
-
-To change your Skyrim SE's language:
-
- 1. Right click on Skyrim SE in Steam
- 2. Click `Properties`
- 3. Click `Language`
- 4. Set the Language to `English`
-
-#### Installing Rare Curios Files
->
->[!WARNING]
-> **If you DO NOT own the AE DLC, DO NOT skip this step or your install may fail!**
-
-Since the 1.6.1130 update (January 17, 2024), Steam began including the free Creation Club (CC) files with the base installation of Skyrim. However, these files do not have the same file hash as the files that are downloaded from the in-game **Creations** menu for Anniversary Edition (AE) users. In order to comply with Wabbajack policy and minimize issues for users who own the AE update, CSVO is compiled using the versions of the CC content that are obtained from the **in-game** Creations menu.
-
-As a result of this, for users who do not own the AE, you must ensure that you download the correct version of the CC files. Steps below:
-
-- Navigate to your Skyrim SE's Steam Data folder
-  - i.e. `D:\SteamLibrary\steamapps\common\Skyrim Special Edition\data`
-- Delete *both* Rare Curios files:
-  - `ccbgssse037-curios.bsa`
-  - `ccbgssse037-curios.esl`
-- Launch Skyrim SE from Steam and select **Creations** at the main menu
-- Select **Search** at the bottom and search for `Rare Curios`
-- Select the card titled `Rare Curios` and press **Download**
-- Once it is done, accept Bethesda's load order message and exit the game
-
->[!IMPORTANT]
->
->- **DO NOT** Alt+Tab during this process or it will fail to properly download these files.
->- **DO NOT** verify your game files after doing the steps above as it will revert the "correct" file hashes for the CC files you downloaded in this step.
+4. **Install Rare Curios Files** (if you don’t own AE DLC):
+   - In Skyrim SE’s Data folder (e.g., `D:\SteamLibrary\steamapps\common\Skyrim Special Edition\data`), delete:
+     - `ccbgssse037-curios.bsa`
+     - `ccbgssse037-curios.esl`
+   - Launch Skyrim SE, go to Creations > Search > Rare Curios > Download.
+   - Exit after download (don’t Alt+Tab or verify game files).
 
 ### Wabbajack Installation
+1. **Install Wabbajack**:
+   - Create a folder (e.g., `C:\Wabbajack`) on your drive’s root (not in Program Files, Desktop, etc.).
+   - Download [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe) and place it in the folder.
+   - Run `Wabbajack.exe` (requires version 4.0.0.0 or later).
 
-#### Installing Wabbajack
+2. **Install CSVO**:
+   - Open Wabbajack, select Skyrim SE, find CSVO, and click “Download and Install.”
+   - Set Installation Location (e.g., `C:\CSVO`) and Downloads Location (avoid Program Files, Desktop, etc.).
+   - Click Install.
+   - Nexus Premium automates downloads; without it, manually click “Slow Download” for each mod.
+   - If successful, proceed to [Post-Installation](#post-installation). If not, check [Troubleshooting](#troubleshooting).
 
-Once you have completed the pre-installation section, follow these steps to install Wabbajack:
+---
 
-1. Create an empty folder named `Wabbajack` on the root of your drive, such as `C:\Wabbajack` for example.
-    > - **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), in your Skyrim's Steam folder, or in any folders related to the modlist itself (the downloads or install folder).**
-    > - The `Wabbajack` folder does not need to be on an SSD, but it makes installing faster. You can set this location to be on an HDD for the sake of saving space.
-
-2. Download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe) and place the `Wabbajack.exe` file inside the Wabbajack folder you created in Step 1.
-
-3. Double-click the `Wabbajack.exe` file that is now inside your Wabbajack folder to set up the program.
-
->[!IMPORTANT]
->The list requires Wabbajack version **4.0.0.0 or later**. Installing the modlist on older versions of Wabbajack will result in issues.
-
-#### Downloading and Installing CSVO
-
->[!CAUTION]
->**A legal copy of Skyrim Special Edition is required.** Pirated copies of the game will cause the installation to fail. GamePass versions do not work as well due to being incompatible with SKSE.
-
-Downloading and installing CSVO can take a while depending on your internet connection, PC specs, and if you have Nexus Premium. Without Premium, you will need to manually click the **Slow Download** button for each mod.
-
-To install CSVO, complete the following steps.
-
- 1. Open Wabbajack and click `Browse Modlists`
- 2. Pick the **Skyrim Special Edition** option from the game filter drop-down box (or use the search bar to find the modlist).
- 3. Find the CSVO UI card and click the "Download and Install" button
- 4. Set the `Installation Location` to a folder such as `C:\CSVO`.
-    > - **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**
-    > - The `Downloads Location` does not need to be on an SSD, but it makes installing faster. You can set this location to an HDD for the sake of saving space.
- 5. Click the "Install" button to begin.
- 6. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again.
- 7. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow the tips below or the [discord server](https://discord.gg/avzs76EgnA) for support.
-
-### Problems with installation
-
-It is possible that you may encounter an error with Wabbajack when installing. Some common issues are listed below.
-
-<Details>
-<summary>I'm having trouble downloading Non-Nexus files or specific files!</summary>
-
-Big files can fail to download due to connection issues or website issues. You can either run Wabbajack again or download the missing file manually. If you decide to manually download the file, make sure to place the file(s) inside the folder you set as the `Downloads Location`.
-
-This issue can also occur with files sources from Google Drive, MEGA, Patreon, and other sites. Missing Manual Downloads are listed [here](#missing-manual-downloads).
-
-</Details>
-
-<Details>
-<summary>Wabbajack couldn't find my game folder!</summary>
-
-Either buy the game or re-read the [Pre-Installation](#pre-installation) section.  
-
-</Details>  
-
-<Details>
-<summary>My antivirus reports a virus with the program or modlist!</summary>
-
-Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in windows defender](#antivirus-exceptions).  
-
-</Details>
-
-<Details>
-<summary>Unable to download "Data_ccbgssse037-curios": </summary>
-
-Please make sure you are following the steps outlined in the [Installing Rare Curios Files](#installing-rare-curios-files) section
-
-</Details>  
-
-<Details>
-<summary>Unable to download Skyrim_Default.ini:</summary>
-
-This error means you failed to follow this Readme. Go back and follow the steps outlines in the [Changing the Game Language](#changing-the-game-language) section
-
-</Details>  
-
-<Details>
-<summary>Sanity check error extracting file:</summary>
-
-Wabbajack will sometimes have issues extracting files if they use special characters. If you encounter this issue in a Wabbajack log, please try the steps down below:
-
- 1. Press `Win Key + R`.
- 2. Type `intl.cpl` and hit `ENTER`.
- 3. Navigate to *Administrative* and click `Change system locale...`.
- 4. Change the *Current system locale:* to `English (United Kingdom)`.
- 5. **Uncheck** `Beta: Use Unicode UTF-8 for worldwide language support`
- 6. Click `OK`
- 7. **Restart your PC** and rerun the Wabbajack installer.
-
-</Details>  
-
-<Details>
-<summary>Wabbajack is crashing during the installation!</summary>
-
-If you find yourself struggling to run Wabbajack without it crashing, freezing up, or blue-screening your PC, please try lowering Wabbajack's resource usage using these steps:
-
-- Open the Wabbajack app
-- Click the "Settings" button in the bottom-left corner of the Wabbajack window
-- Under the "Performance" box, lower *each number for each category* to half of what it is set currently
-  - *This will slow your download/install speed significantly. Feel free to decrease the values in increments to find a sweet spot.*
-- Continue installation.
-
-</Details>  
-
-## Post-Installation and Optional Setup
+## Post-Installation
 
 ### Antivirus Exceptions
-
->[!WARNING]
->Antivirus programs are notorious for false flagging [MO2's Virtual File System](https://stepmodifications.org/wiki/Guide:Mod_Organizer/Advanced), which can and will cause crashes and other problems. Third-party AV programs such as BitDefender, Norton, and Webroot are especially aggressive, and you will most likely need to fully uninstall them in order to launch the game through MO2. It is 2025, Windows Defender and being smart online is more than adequate to protect yourself from malicious software.
-
-If you use Windows Defender, it is advised that you set up an exception for the modlist.
-
-<Details>
-<summary>Setting up Windows Defender Exceptions:</summary>
-
- 1. Press the Windows Key.
- 2. Type "Windows Defender" in the search bar and select "Windows Security".
- 3. Click on "Virus & threat protection" in the left pane.
- 4. Click the "Manage settings" option under "Virus & threat protection settings".
- 5. Scroll down to "Exclusions" and click "Add or remove exclusions".
- 6. Windows Defender will prompt you with a run as administrator screen, just hit yes.
- 7. Click the "Add an exclusion" button at the top and choose "Folder".
- 8. Navigate to your Install folder for the list and click "Select Folder".
- 9. **(OPTIONAL)** You can repeat these steps for the other executables:
-    - ModOrganizer.exe (`[Path to Modlist]\ModOrganizer.exe`)
-    - Synthesis.exe (`[Path to Modlist]\tools\Synthesis\Synthesis.exe`)
-
-</Details>  
-
-### Post-Installation Issues and Troubleshooting
-
-<Details>
-<summary>Form 43 Error in MO2. / A DLL plugin has failed to load correctly.</summary>
-
-Your installation is corrupt. Rerun Wabbajack and make sure to tick the **Overwrite Installation** box. If the error persists after a reinstall, then delete the `[Path to Modlist]\mods` folder, and rerun Wabbajack again.
-
-</Details>  
-
-<Details>
-<summary>Crashing on Startup</summary>
-
-Send a message in the `#csvo-testing` channel of our [discord](https://discord.gg/avzs76EgnA), including *all* relevant crash logs. There are several reasons why this might happen, and 99.9% of them are a corrupt installation.
-
-</Details>  
-
-</Details>
+- Add exceptions in Windows Defender for the CSVO folder and `ModOrganizer.exe` to avoid crashes.
+- Steps: Windows Security > Virus & Threat Protection > Manage Settings > Exclusions > Add Folder > Select CSVO folder.
 
 ### Keyboard Keybinds
+- **Community Shaders**: `End` key.
+- Other controls use vanilla Skyrim keybinds.
 
-This section is going to be short, basic, and only go over the *additional modded keybinds*. All other controls, other than the ones listed below, are bound to vanilla keybinds.
+---
 
-Please refer [this](https://ck.uesp.net/wiki/Input_Script) page for the DXScanCodes used by most mods if you'd like to change the binds for these mods **outside of the game**.
+## Playing the Game
+- Launch Skyrim SE through Mod Organizer 2 (MO2) in the CSVO folder.
+- Enjoy the enhanced visuals!
 
-- [Community Shaders](https://www.nexusmods.com/skyrimspecialedition/mods/86492): `End` Key
+---
 
-## Updating the Modlist
+## Updating
+1. Open Wabbajack, find CSVO, and click “Download and Install.”
+2. Use the same Installation and Downloads folders.
+3. Backup custom mods or settings (prefix added mods with **[NoDelete]** in MO2).
+4. Check [Changelog](https://github.com/InTheBottle/CSVO/blob/main/Changelog.md) for save-safe updates.
 
-To update a modlist, follow these steps:
+---
 
-- Open the Wabbajack application
-- Download the newest Wabbajack file for your modlist from the `Browse Lists` section by locating the modlist's UI card and clicking "Download & Install"
-- Select the same `Installation Location` and `Downloads Location` folders you chose previously
-- Click the "Install" button to begin installation
+## Uninstalling
+- Delete the CSVO folder.
 
-Changes to the modlist will be lost upon reinstall, so back up your modifications (such as INI tweaks or mod configs). If you want to keep mods you've added, it is recommended to prefix any added mods with **[NoDelete]** and run the Wabbajack [NoDelete] Indexer (Puzzle Piece button at the top of MO2) so Wabbajack can ignore those mods.
+---
 
->[!TIP]
->Saves can be continued across **save-safe** updates. Updates will be indicated whether or not they are **save-safe** on the [Changelog](https://github.com/InTheBottle/CSVO/blob/main/Changelog.md).
+## Troubleshooting
+- **Installation Issues**:
+  - Missing files? Manually download and place them in the Downloads folder.
+  - Game folder not found? Ensure Skyrim SE is installed and follow [Pre-Installation](#pre-installation).
+  - Antivirus flagging? Add exceptions or uninstall aggressive third-party AV (e.g., Norton).
+  - Rare Curios error? Follow [Install Rare Curios Files](#installing-rare-curios-files).
+  - Language error? Set Skyrim SE to English in Steam.
 
-## Removing the Modlist
+- **Post-Installation Issues**:
+  - Form 43/DLL errors? Reinstall with “Overwrite Installation” checked in Wabbajack.
+  - Crashing on startup? Reinstall or seek help on [Discord](https://discord.gg/avzs76EgnA) with crash logs.
 
-Simply delete the CSVO folder. Congratulations, you have uninstalled CSVO!
+- Join [CSVO Discord](https://discord.gg/avzs76EgnA) for support.
 
-## Issues
+---
 
-If you encounter any bugs or issues while playing the list, the [CSVO](https://discord.gg/avzs76EgnA) support server is preferred and will have the fastest turn around time for support.
-
-## Credits and Thanks
-
-- [ElminsterAU](https://www.patreon.com/ElminsterAU) and the xEdit team for SSEEdit
-- [Noggog](https://www.nexusmods.com/skyrim/users/862590) for Mutagen and Synthesis
-- [Halgari](https://www.nexusmods.com/skyrimspecialedition/users/17252164) and the WJ Team for the amazing platform that is Wabbajack
-- [Sheson](https://ko-fi.com/sheson) for [DynDOLOD](https://dyndolod.info/) and associated tools
-- All mod authors whose work is included, this list would not be possible without the greater modding community
+## Credits
+- [ElminsterAU](https://www.patreon.com/ElminsterAU) & xEdit team for SSEEdit.
+- [Noggog](https://www.nexusmods.com/skyrim/users/862590) for Mutagen and Synthesis.
+- [Halgari](https://www.nexusmods.com/skyrimspecialedition/users/17252164) & Wabbajack team.
+- [Althro](https://github.com/Althro) and [Styyx](https://github.com/Styyx1) For ADT which is the best base to build off of.
+- [Sheson](https://ko-fi.com/sheson) for DynDOLOD.
+- All mod authors and the Skyrim modding community.
