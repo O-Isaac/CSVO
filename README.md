@@ -70,10 +70,7 @@ Licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.
    - Install [Creation Kit](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/) on the same drive as Skyrim SE.
    - Run Creation Kit once, select `Yes` to unpack scripts.
 
-3. **Set Game Language**:
-   - In Steam, right-click Skyrim SE > Properties > Language > Set to English.
-
-4. **Install Rare Curios Files** (if you don’t own AE DLC):
+3. **Install Rare Curios Files** (if you don’t own AE DLC):
    - In Skyrim SE’s Data folder (e.g., `D:\SteamLibrary\steamapps\common\Skyrim Special Edition\data`), delete:
      - `ccbgssse037-curios.bsa`
      - `ccbgssse037-curios.esl`
