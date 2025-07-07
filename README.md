@@ -33,6 +33,8 @@ A visuals-focused modlist for Skyrim Special Edition.
 ## Introduction
 **CSVO** is a visuals-only modlist for Skyrim SE (1.6.1170), built around [Community Shaders](https://www.nexusmods.com/skyrimspecialedition/mods/86492). Based on [Althros Dev Tools](https://github.com/Styyx1/ADT).
 
+This is a list made for the user to build upon and have a quick and easy full PBR Community Shaders focused setup. Things are set up to easily be pulled apart. Mesh fixes are in place to avoid the hassle of organization so you can get straight to adding your favorite overhauls and start playing.
+
 View the full mod list [here](https://loadorderlibrary.com/lists/csvo-community-shaders-visual-overhaul).
 
 Licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
