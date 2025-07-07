@@ -44,9 +44,9 @@ Licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.
 ## System Requirements
 - **OS**: Windows 10 or 11 (no LTSC or modified versions; Linux not supported).
 - **Storage**: SSD required.
-- **Download Size**: ~34 GB.
-- **Install Size**: ~71 GB.
-- **Total Space Needed**: ~105 GB.
+- **Download Size**: ~56 GB.
+- **Install Size**: ~139 GB.
+- **Total Space Needed**: ~195 GB.
 
 | Component | Recommended (1080p) | My Specs (1440p) |
 |-----------|---------------------|------------------|
