@@ -1,6 +1,7 @@
 site_name: CSVO
 site_url: https://inthebottle.github.io/CSVO
 repo_url: https://github.com/InTheBottle/CSVO
+repo_name: InTheBottle/CSVO
 theme:
   name: material
   custom_dir: overrides
