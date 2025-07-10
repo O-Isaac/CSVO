@@ -72,13 +72,6 @@ Licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.
    - Install [Creation Kit](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/) on the same drive as Skyrim SE.
    - Run Creation Kit once, select `Yes` to unpack scripts.
 
-3. **Install Rare Curios Files** (if you don’t own AE DLC):
-   - In Skyrim SE’s Data folder (e.g., `D:\SteamLibrary\steamapps\common\Skyrim Special Edition\data`), delete:
-     - `ccbgssse037-curios.bsa`
-     - `ccbgssse037-curios.esl`
-   - Launch Skyrim SE, go to Creations > Search > Rare Curios > Download.
-   - Exit after download (don’t Alt+Tab or verify game files).
-
 ### Wabbajack Installation
 1. **Install Wabbajack**:
    - Create a folder (e.g., `C:\Wabbajack`) on your drive’s root (not in Program Files, Desktop, etc.).
