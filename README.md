@@ -156,7 +156,6 @@ As long as you want lods and PBR, you'll generally need to rerun each of these w
   - Missing files? Manually download and place them in the Downloads folder.
   - Game folder not found? Ensure Skyrim SE is installed and follow [Pre-Installation](#pre-installation).
   - Antivirus flagging? Add exceptions or uninstall aggressive third-party AV (e.g., Norton).
-  - Language error? Set Skyrim SE to English in Steam.
 
 - **Post-Installation Issues**:
   - Form 43/DLL errors? Reinstall with “Overwrite Installation” checked in Wabbajack.
