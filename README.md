@@ -122,7 +122,7 @@ There are a few things you can and should do.
 
 ## Modifying the list
 This list is meant to modded, adding and patching mods is fairly simple and I will assume you have some decent knowledge on that part already. I will provide the LOD settings used, a long with the ParallaxGen conflict load order below.
-These will help you when you add new meshes or overhauls etc and have to rerun these things for yourself.
+These will help you when you add new meshes or overhauls etc and have to rerun these things for yourself. The quality number I use for xLodgen aren't required and you can set those to whatever you'd like.
 
 xLodgen
 
