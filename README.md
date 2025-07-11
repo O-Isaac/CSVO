@@ -24,6 +24,7 @@ A visuals-focused modlist for Skyrim Special Edition.
 - [Post-Installation](#post-installation)
 - [Playing the Game](#playing-the-game)
 - [Updating](#updating)
+- [Modifying the list](#Modifying-the-list)
 - [Uninstalling](#uninstalling)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
