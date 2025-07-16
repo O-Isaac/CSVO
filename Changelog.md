@@ -36,3 +36,8 @@
 - Updated some utility mods
 - Added Sons of Skyrim - USSEP Patch
 - Reran LODs and PGPatcher to include FOLIP and the new textures
+
+1.4.1 Changelog 7/16/2025 (Save Safe)
+
+- Update NAT.CS
+- Hotfix for wrong statue textures being applied
