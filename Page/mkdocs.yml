@@ -29,8 +29,6 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
-  - pymdownx.arithmatex:
-      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
@@ -47,7 +45,6 @@ markdown_extensions:
       user: InTheBottle
       repo: CSVO
   - pymdownx.mark
-  - pymdownx.smartsymbols
   - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
@@ -62,6 +59,10 @@ markdown_extensions:
 
 plugins:
   - search
+  - mkdocs-simple-hooks:
+      hooks:
+        on_pre_build: "hooks.changelog:generate_changelog_page"
+
 nav:
     - Getting Started:
       - getting-started/index.md 
@@ -95,3 +96,4 @@ extra:
 
 watch:
   - overrides
+
