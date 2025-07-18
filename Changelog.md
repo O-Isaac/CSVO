@@ -6,6 +6,7 @@
 - [1.3 (7/9/2025)](#13-changelog-792025-not-save-safe)
 - [1.4 (7/12/2025)](#14-changelog-7122025-not-save-safe)
 - [1.4.1 (7/16/2025)](#141-changelog-7162025-save-safe)
+- [1.4.2 (7/18/2025)](#142-changelog-7182025-save-safe)
 
 ## 1.1 Changelog 7/7/2025 (Not Save Safe)
 
@@ -50,3 +51,7 @@
 
 - Update NAT.CS
 - Hotfix for wrong statue textures being applied
+
+## 1.4.2 Changelog 7/18/2025 (Save Safe)
+
+- Updated Faultiers AIO to fix install issue.
