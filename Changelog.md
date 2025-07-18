@@ -54,4 +54,5 @@
 
 ## 1.4.2 Changelog 7/18/2025 (Save Safe)
 
-- Updated Faultiers AIO to fix install issue.
+- Updated Faultiers AIO to fix install issue
+- Removed extra Pandora Archive being installed
