@@ -29,5 +29,5 @@ These will help you when you add new meshes or overhauls etc and have to rerun t
     !!! info
         Recommended LOD Blend settings within Community Shaders UI
 
-   ![LODCS](https://github.com/InTheBottle/CSVO/blob/main/Resources/LODCS.png)
+    ![LODCS](/CSVO/assets/images/LODCS.png)
 
